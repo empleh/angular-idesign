@@ -1,0 +1,9 @@
+<header>
+    <app-header *ngIf="userLoaded | async"></app-header>
+</header>
+
+<app-navigation *ngIf="userLoaded | async"></app-navigation>
+
+<main>
+    <router-outlet></router-outlet>
+</main>

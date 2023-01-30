@@ -1,6 +1,26 @@
-# AngularIdesign
+# Angular IDesign
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+Example project using IDesign principles for architecture and folder structure
+
+## High Level Overview
+
+1 - App module should be very minimal and only contain items shared accross the entire app like header/footer/sidebar
+
+2 - All other modules are lazy loaded by route
+
+3 - Shared module holder components used by more than 1 module
+
+4 - Managers should mirror backend Managers
+
+5 - Accessors handles data retrieval, commonly api calls to backend
+
+6 - Utilities should be pure TypScript classes that could be used anywhere
+
+
+
+
+
+
 
 ## Development server
 
